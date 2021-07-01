@@ -39,7 +39,13 @@
 		<Unit filename="GameObject.h" />
 		<Unit filename="TextureLoader.cpp" />
 		<Unit filename="TextureLoader.h" />
+		<Unit filename="bulletEntity.cpp" />
+		<Unit filename="bulletEntity.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="meteorEntity.cpp" />
+		<Unit filename="meteorEntity.h" />
+		<Unit filename="playerEntity.cpp" />
+		<Unit filename="playerEntity.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

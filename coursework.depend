@@ -1,17 +1,27 @@
 # depslib dependency file v1.0
-1547312558 source:c:\bstu\projects\coursework\game.cpp
+1550087271 source:c:\bstu\projects\coursework\game.cpp
 	"Game.h"
 	"TextureLoader.h"
 	"FontHandler.h"
 	"GameObject.h"
+	"playerEntity.h"
+	"bulletEntity.h"
+	"meteorEntity.h"
 
-1547311866 c:\bstu\projects\coursework\game.h
+1550087166 c:\bstu\projects\coursework\game.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_ttf.h>
 	<iostream>
+	<algorithm>
+	<list>
+	<time.h>
+	<sstream>
+	<string>
+	<fstream>
+	<cstdlib>
 
-1547312377 source:c:\bstu\projects\coursework\main.cpp
+1549992259 source:c:\bstu\projects\coursework\main.cpp
 	"Game.h"
 
 1546893591 c:\bstu\projects\coursework\game.cpp
@@ -363,16 +373,39 @@
 1546950915 c:\bstu\projects\coursework\textureloader.h
 	"Game.h"
 
-1546950993 source:c:\bstu\projects\coursework\gameobject.cpp
+1549395956 source:c:\bstu\projects\coursework\gameobject.cpp
 	"GameObject.h"
 	"TextureLoader.h"
 
-1546969840 c:\bstu\projects\coursework\gameobject.h
+1549396764 c:\bstu\projects\coursework\gameobject.h
 	"Game.h"
 
-1547059352 source:c:\bstu\projects\coursework\fonthandler.cpp
+1549559626 source:c:\bstu\projects\coursework\fonthandler.cpp
 	"FontHandler.h"
 
-1547057327 c:\bstu\projects\coursework\fonthandler.h
+1549557624 c:\bstu\projects\coursework\fonthandler.h
 	"Game.h"
+
+1549556946 c:\bstu\projects\coursework\playerentity.h
+	"GameObject.h"
+
+1549557634 source:c:\bstu\projects\coursework\playerentity.cpp
+	"playerEntity.h"
+
+1549556924 source:c:\bstu\projects\coursework\meteorentity.cpp
+	"meteorEntity.h"
+
+1549561023 c:\bstu\projects\coursework\meteorentity.h
+	"GameObject.h"
+	"playerEntity.h"
+
+1549555871 source:c:\bstu\projects\coursework\bulletentity.cpp
+	"bulletEntity.h"
+
+1550080072 c:\bstu\projects\coursework\bulletentity.h
+	"GameObject.h"
+	"TextureLoader.h"
+
+1549388289 c:\bstu\projects\coursework\bulletentity.cpp
+	"bulletEntity.h"
 

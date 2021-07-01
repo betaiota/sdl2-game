@@ -4,16 +4,19 @@
 class GameObject
 {
 public:
-    GameObject(const char* texturesheet, int x, int y);
-    ~GameObject();
-    void Update();
+    GameObject(const char* texturesheet);
+    virtual ~GameObject();
+    virtual void Update();
     void Render();
-private:
+    virtual bool objCollision(GameObject* other);
+    int retXpos();
+    int retYpos();
+    int retHeight();
+    int retWidth();
+protected:
     int xpos;
     int ypos;
 
     SDL_Texture* objTexture;
     SDL_Rect srcRect, destRect;
-
-
 };
